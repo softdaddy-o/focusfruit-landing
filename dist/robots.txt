@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://focusfruit.softdaddy-o.com/sitemap.xml
