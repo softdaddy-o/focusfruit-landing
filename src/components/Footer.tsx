@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const links = [
-    { label: 'Privacy Policy', href: '/privacy' },
-    { label: 'Terms of Service', href: '/terms' },
-    { label: 'Contact', href: 'mailto:hello@focusfruit.softdaddy-o.com' },
+    { label: 'Privacy Policy', href: '/privacy', external: false },
+    { label: 'Terms of Service', href: '/terms', external: false },
+    { label: 'Contact', href: 'mailto:hello@focusfruit.softdaddy-o.com', external: true },
   ];
 
   return (
@@ -24,15 +26,25 @@ export function Footer() {
 
           {/* Links */}
           <nav className="flex flex-wrap items-center justify-center gap-6">
-            {links.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-sm text-slate-500 hover:text-slate-900 transition-colors duration-200"
-              >
-                {link.label}
-              </a>
-            ))}
+            {links.map((link) =>
+              link.external ? (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm text-slate-500 hover:text-slate-900 transition-colors duration-200"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.label}
+                  to={link.href}
+                  className="text-sm text-slate-500 hover:text-slate-900 transition-colors duration-200"
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
           </nav>
 
           {/* Social */}
