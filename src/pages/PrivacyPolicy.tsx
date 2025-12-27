@@ -36,13 +36,15 @@ export function PrivacyPolicy() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">Data Collection</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">Data Collection and Storage</h2>
             <p className="text-slate-600 mb-4">
-              <strong>FocusFruit does not collect, transmit, or store any personal data on external servers.</strong>
+              By default, all your data including timer settings, session history, and statistics is stored locally
+              on your device using Chrome's built-in storage API.
             </p>
             <p className="text-slate-600 mb-4">
-              All your data, including timer settings, session history, and statistics, is stored locally
-              on your device using Chrome's built-in storage API. This data never leaves your browser.
+              <strong>Optional Data Sync:</strong> If you choose to enable data syncing in the future (when available),
+              your data may be transmitted to and stored on our secure servers to enable cross-device synchronization.
+              This feature is entirely optional and requires your explicit consent before activation.
             </p>
           </section>
 
@@ -62,26 +64,7 @@ export function PrivacyPolicy() {
                 <strong>Notifications:</strong> To alert you when a focus session or break ends.
               </li>
               <li>
-                <strong>Tabs:</strong> To implement the optional website blocking feature during focus sessions.
-              </li>
-              <li>
                 <strong>Idle:</strong> To detect inactivity and optionally pause or reset the timer.
-              </li>
-            </ul>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">Optional Permissions</h2>
-            <p className="text-slate-600 mb-4">
-              Some features require additional permissions that you can choose to grant:
-            </p>
-            <ul className="list-disc pl-6 text-slate-600 space-y-2">
-              <li>
-                <strong>DeclarativeNetRequest:</strong> Required only if you enable website blocking.
-                This allows FocusFruit to block distracting websites during focus sessions.
-              </li>
-              <li>
-                <strong>WebNavigation:</strong> Used alongside website blocking to redirect you away from blocked sites.
               </li>
             </ul>
           </section>
@@ -122,10 +105,10 @@ export function PrivacyPolicy() {
             </p>
             <p className="text-slate-600">
               <a
-                href="mailto:hello@focusfruit.softdaddy-o.com"
+                href="mailto:softdaddy.official@gmail.com"
                 className="text-orange-500 hover:text-orange-600 underline"
               >
-                hello@focusfruit.softdaddy-o.com
+                softdaddy.official@gmail.com
               </a>
             </p>
           </section>

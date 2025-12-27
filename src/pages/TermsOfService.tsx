@@ -41,17 +41,21 @@ export function TermsOfService() {
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>A Pomodoro timer for productivity management</li>
-              <li>Optional website blocking during focus sessions</li>
               <li>Session tracking and statistics</li>
               <li>Customizable timer durations and notifications</li>
+              <li>Multiple fruit themes for personalization</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">3. License</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">3. License and Pricing</h2>
             <p className="text-slate-600 mb-4">
-              FocusFruit is provided under the MIT License. You are free to use the Extension for personal
-              and commercial purposes. The source code is available on GitHub.
+              FocusFruit is proprietary software. The Extension is free to use with basic features.
+              Premium features may require a paid subscription. All rights are reserved by FocusFruit.
+            </p>
+            <p className="text-slate-600 mb-4">
+              You may not copy, modify, distribute, sell, or lease any part of the Extension or its source code
+              without explicit written permission from FocusFruit.
             </p>
           </section>
 
@@ -63,24 +67,12 @@ export function TermsOfService() {
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Use the Extension in compliance with all applicable laws</li>
               <li>Not attempt to reverse engineer, modify, or exploit the Extension for malicious purposes</li>
-              <li>Accept responsibility for any websites you choose to block</li>
+              <li>Maintain the security of your account credentials if using premium features</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">5. Website Blocking Feature</h2>
-            <p className="text-slate-600 mb-4">
-              The website blocking feature is optional and user-controlled. You are solely responsible for:
-            </p>
-            <ul className="list-disc pl-6 text-slate-600 space-y-2">
-              <li>Choosing which websites to block</li>
-              <li>Understanding that blocked websites will be inaccessible during focus sessions</li>
-              <li>Any consequences of blocking specific websites</li>
-            </ul>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">6. Disclaimer of Warranties</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">5. Disclaimer of Warranties</h2>
             <p className="text-slate-600 mb-4">
               FocusFruit is provided "as is" without warranty of any kind, express or implied. We do not guarantee:
             </p>
@@ -92,7 +84,7 @@ export function TermsOfService() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">7. Limitation of Liability</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">6. Limitation of Liability</h2>
             <p className="text-slate-600 mb-4">
               To the maximum extent permitted by law, FocusFruit and its developers shall not be liable for any
               indirect, incidental, special, consequential, or punitive damages arising from your use of the Extension.
@@ -100,7 +92,7 @@ export function TermsOfService() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">8. Changes to Terms</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">7. Changes to Terms</h2>
             <p className="text-slate-600 mb-4">
               We reserve the right to modify these terms at any time. Changes will be posted on this page with
               an updated revision date. Continued use of the Extension after changes constitutes acceptance of
@@ -109,16 +101,16 @@ export function TermsOfService() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">9. Contact</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">8. Contact</h2>
             <p className="text-slate-600 mb-4">
               For questions about these terms, please contact us at:
             </p>
             <p className="text-slate-600">
               <a
-                href="mailto:hello@focusfruit.softdaddy-o.com"
+                href="mailto:softdaddy.official@gmail.com"
                 className="text-orange-500 hover:text-orange-600 underline"
               >
-                hello@focusfruit.softdaddy-o.com
+                softdaddy.official@gmail.com
               </a>
             </p>
           </section>
