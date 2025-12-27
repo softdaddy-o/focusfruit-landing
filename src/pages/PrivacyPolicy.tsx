@@ -78,15 +78,46 @@ export function PrivacyPolicy() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">Data Deletion</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">Your Rights</h2>
             <p className="text-slate-600 mb-4">
-              Since all data is stored locally on your device, you can delete it at any time by:
+              You have full control over your data. Since FocusFruit stores data locally on your device, you can:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
-              <li>Using the "Clear Data" option in FocusFruit settings</li>
-              <li>Uninstalling the extension (this removes all associated data)</li>
-              <li>Clearing your browser's extension data through Chrome settings</li>
+              <li><strong>Access:</strong> View all your data directly within the extension's statistics and settings</li>
+              <li><strong>Delete:</strong> Remove all data using the "Clear Data" option in settings, or by uninstalling the extension</li>
+              <li><strong>Export:</strong> Your data remains on your device and is not transmitted externally</li>
             </ul>
+            <p className="text-slate-600 mt-4">
+              If you enable optional cloud sync features in the future, you may request access to, correction of,
+              or deletion of your synced data by contacting us at the email below.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">Data Retention</h2>
+            <p className="text-slate-600 mb-4">
+              Local data is retained on your device until you choose to delete it. We do not have access to
+              your locally stored data. If cloud sync is enabled in the future, synced data will be retained
+              only as long as your account is active, and will be deleted within 30 days of account deletion.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">Children's Privacy</h2>
+            <p className="text-slate-600 mb-4">
+              FocusFruit is not directed at children under 13 years of age. We do not knowingly collect
+              personal information from children under 13. If you believe a child has provided us with
+              personal information, please contact us so we can take appropriate action.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">International Users</h2>
+            <p className="text-slate-600 mb-4">
+              FocusFruit is operated from South Korea. If you are accessing the extension from outside
+              South Korea and enable optional cloud sync features, your data may be transferred to and
+              processed in South Korea or other countries where our servers are located.
+            </p>
           </section>
 
           <section className="mb-8">

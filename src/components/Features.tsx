@@ -42,13 +42,21 @@ export function Features() {
       bgColor: 'bg-amber-50',
     },
     {
+      icon: <GlobeIcon />,
+      title: 'Multi-Language',
+      description: 'Available in English and Korean. More languages coming soon.',
+      emoji: '🌍',
+      color: 'from-sky-400 to-blue-500',
+      bgColor: 'bg-sky-50',
+    },
+    {
       icon: <HomeIcon />,
       title: 'Smart Home',
       description: 'Control with Google Home or Home Assistant.',
       emoji: '🏠',
       color: 'from-blue-400 to-cyan-500',
       bgColor: 'bg-blue-50',
-      badge: 'Premium',
+      badge: 'Coming Soon',
     },
   ];
 
@@ -155,6 +163,14 @@ function HomeIcon() {
   return (
     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+    </svg>
+  );
+}
+
+function GlobeIcon() {
+  return (
+    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
     </svg>
   );
 }

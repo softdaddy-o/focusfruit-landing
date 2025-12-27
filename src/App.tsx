@@ -5,6 +5,7 @@ import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { HowItWorks } from './components/HowItWorks';
 import { ThemeShowcase } from './components/ThemeShowcase';
+import { Pricing } from './components/Pricing';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
@@ -38,6 +39,7 @@ function HomePage() {
         <Features />
         <HowItWorks />
         <ThemeShowcase />
+        <Pricing />
         <CTA />
       </main>
       <Footer />

@@ -92,7 +92,49 @@ export function TermsOfService() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">7. Changes to Terms</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">7. Premium Subscriptions</h2>
+            <p className="text-slate-600 mb-4">
+              Premium features are available through paid subscriptions. By subscribing, you agree to:
+            </p>
+            <ul className="list-disc pl-6 text-slate-600 space-y-2">
+              <li>Pay the applicable subscription fees as displayed at the time of purchase</li>
+              <li>Automatic renewal unless cancelled before the renewal date</li>
+              <li>No refunds for partial subscription periods, except as required by law</li>
+            </ul>
+            <p className="text-slate-600 mt-4">
+              Subscriptions are processed through third-party payment providers (such as Lemonsqueezy).
+              Please review their terms and refund policies as applicable.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">8. Termination</h2>
+            <p className="text-slate-600 mb-4">
+              You may stop using FocusFruit at any time by uninstalling the Extension. We reserve the right
+              to suspend or terminate access to premium features if you violate these terms or fail to pay
+              subscription fees. Upon termination, your locally stored data remains on your device.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">9. Age Requirements</h2>
+            <p className="text-slate-600 mb-4">
+              You must be at least 13 years old to use FocusFruit. If you are under 18, you represent that
+              you have your parent or guardian's permission to use the Extension.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">10. Governing Law</h2>
+            <p className="text-slate-600 mb-4">
+              These terms are governed by and construed in accordance with the laws of South Korea,
+              without regard to its conflict of law provisions. Any disputes arising from these terms
+              shall be resolved in the courts of South Korea.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">11. Changes to Terms</h2>
             <p className="text-slate-600 mb-4">
               We reserve the right to modify these terms at any time. Changes will be posted on this page with
               an updated revision date. Continued use of the Extension after changes constitutes acceptance of
@@ -101,7 +143,7 @@ export function TermsOfService() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">8. Contact</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">12. Contact</h2>
             <p className="text-slate-600 mb-4">
               For questions about these terms, please contact us at:
             </p>
