@@ -1,46 +1,49 @@
-import { Check } from 'lucide-react';
+import { Check, CheckCircle } from 'lucide-react';
+import { CHROME_STORE_URL } from '../constants';
+
+const PLANS = [
+  {
+    name: 'Free',
+    price: '$0',
+    period: 'forever',
+    description: 'Perfect for getting started with Pomodoro',
+    features: [
+      'Pomodoro timer (25/5/15 min)',
+      '7 beautiful fruit themes',
+      'Daily statistics & streaks',
+      'Browser notifications',
+      'Customizable durations',
+      'English & Korean language',
+    ],
+    cta: 'Get Started Free',
+    ctaLink: CHROME_STORE_URL,
+    highlighted: false,
+  },
+  {
+    name: 'Premium',
+    price: '$2.99',
+    period: '/month',
+    yearlyPrice: '$24.99/year',
+    yearlySavings: 'Save 30%',
+    description: 'For serious productivity seekers',
+    features: [
+      'Everything in Free, plus:',
+      'Website blocking during focus',
+      'Weekly & monthly analytics',
+      'Productivity insights & scores',
+      'Custom tag management',
+      'Home Assistant integration',
+      'Priority support',
+    ],
+    cta: 'Start Free Trial',
+    ctaLink: CHROME_STORE_URL,
+    highlighted: true,
+  },
+];
+
+const TRUST_BADGES = ['7-day free trial', 'Cancel anytime', 'Secure payment'];
 
 export function Pricing() {
-  const plans = [
-    {
-      name: 'Free',
-      price: '$0',
-      period: 'forever',
-      description: 'Perfect for getting started with Pomodoro',
-      features: [
-        'Pomodoro timer (25/5/15 min)',
-        '7 beautiful fruit themes',
-        'Daily statistics & streaks',
-        'Browser notifications',
-        'Customizable durations',
-        'English & Korean language',
-      ],
-      cta: 'Get Started Free',
-      ctaLink: '#',
-      highlighted: false,
-    },
-    {
-      name: 'Premium',
-      price: '$2.99',
-      period: '/month',
-      yearlyPrice: '$24.99/year',
-      yearlySavings: 'Save 30%',
-      description: 'For serious productivity seekers',
-      features: [
-        'Everything in Free, plus:',
-        'Website blocking during focus',
-        'Week & Month statistics',
-        'Energy & mood tracking',
-        'Export stats as image',
-        'Smart Home integration',
-        'Priority support',
-      ],
-      cta: 'Start Free Trial',
-      ctaLink: 'https://focusfruit.lemonsqueezy.com',
-      highlighted: true,
-    },
-  ];
-
   return (
     <section id="pricing" className="relative py-20 lg:py-28 overflow-hidden bg-gradient-to-b from-white to-orange-50">
       <div className="relative max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -62,7 +65,7 @@ export function Pricing() {
 
         {/* Pricing cards */}
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {plans.map((plan) => (
+          {PLANS.map((plan) => (
             <div
               key={plan.name}
               className={`relative p-8 rounded-3xl border-2 ${
@@ -123,24 +126,12 @@ export function Pricing() {
 
         {/* Trust badges */}
         <div className="mt-12 flex flex-wrap justify-center gap-6 text-sm text-slate-500">
-          <span className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            7-day free trial
-          </span>
-          <span className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            Cancel anytime
-          </span>
-          <span className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            Secure payment
-          </span>
+          {TRUST_BADGES.map((badge) => (
+            <span key={badge} className="flex items-center gap-2">
+              <CheckCircle className="w-5 h-5 text-green-500" />
+              {badge}
+            </span>
+          ))}
         </div>
       </div>
     </section>

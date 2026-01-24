@@ -3,27 +3,27 @@ import { useState } from 'react';
 // Theme data with screenshot paths
 const THEMES = [
   { id: 'orange', name: 'Orange', emoji: '🍊', screenshot: '/screenshots/popup-orange.png' },
-  { id: 'strawberry', name: 'Strawberry', emoji: '🍓', screenshot: '/screenshots/popup-strawberry.png' },
+  { id: 'peach', name: 'Peach', emoji: '🍑', screenshot: '/screenshots/popup-peach.png' },
   { id: 'blueberry', name: 'Blueberry', emoji: '🫐', screenshot: '/screenshots/popup-blueberry.png' },
   { id: 'grape', name: 'Grape', emoji: '🍇', screenshot: '/screenshots/popup-grape.png' },
   { id: 'kiwi', name: 'Kiwi', emoji: '🥝', screenshot: '/screenshots/popup-kiwi.png' },
-  { id: 'lemon', name: 'Lemon', emoji: '🍋', screenshot: '/screenshots/popup-lemon.png' },
+  { id: 'coconut', name: 'Coconut', emoji: '🥥', screenshot: '/screenshots/popup-coconut.png' },
   { id: 'watermelon', name: 'Watermelon', emoji: '🍉', screenshot: '/screenshots/popup-watermelon.png' },
 ];
 
 // Theme colors for UI elements (buttons, glow effects)
 const THEME_COLORS: Record<string, string> = {
   orange: '#FF8C42',
-  strawberry: '#FF6B9D',
+  peach: '#FFB6C1',
   blueberry: '#7B9FF5',
   grape: '#9B6FD6',
   kiwi: '#A8D55C',
-  lemon: '#FFE066',
+  coconut: '#D7CCC8',
   watermelon: '#FF6B6B',
 };
 
 export function ThemeShowcase() {
-  const [activeTheme, setActiveTheme] = useState(THEMES[1]); // Strawberry
+  const [activeTheme, setActiveTheme] = useState(THEMES[0]); // Orange
 
   const activeColor = THEME_COLORS[activeTheme.id];
 
