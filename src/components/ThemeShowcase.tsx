@@ -1,25 +1,25 @@
 import { useState } from 'react';
 
-// Theme data with screenshot paths
+// Theme data matching extension's 7 fruit themes (see src/shared/constants/themes.ts)
 const THEMES = [
   { id: 'orange', name: 'Orange', emoji: '🍊', screenshot: '/screenshots/popup-orange.png' },
-  { id: 'peach', name: 'Peach', emoji: '🍑', screenshot: '/screenshots/popup-peach.png' },
-  { id: 'blueberry', name: 'Blueberry', emoji: '🫐', screenshot: '/screenshots/popup-blueberry.png' },
-  { id: 'grape', name: 'Grape', emoji: '🍇', screenshot: '/screenshots/popup-grape.png' },
-  { id: 'kiwi', name: 'Kiwi', emoji: '🥝', screenshot: '/screenshots/popup-kiwi.png' },
-  { id: 'coconut', name: 'Coconut', emoji: '🥥', screenshot: '/screenshots/popup-coconut.png' },
   { id: 'watermelon', name: 'Watermelon', emoji: '🍉', screenshot: '/screenshots/popup-watermelon.png' },
+  { id: 'blueberry', name: 'Blueberry', emoji: '🫐', screenshot: '/screenshots/popup-blueberry.png' },
+  { id: 'kiwi', name: 'Kiwi', emoji: '🥝', screenshot: '/screenshots/popup-kiwi.png' },
+  { id: 'peach', name: 'Peach', emoji: '🍑', screenshot: '/screenshots/popup-peach.png' },
+  { id: 'grape', name: 'Grape', emoji: '🍇', screenshot: '/screenshots/popup-grape.png' },
+  { id: 'coconut', name: 'Coconut', emoji: '🥥', screenshot: '/screenshots/popup-coconut.png' },
 ];
 
-// Theme colors for UI elements (buttons, glow effects)
+// Theme colors matching extension (see src/shared/constants/themes.ts)
 const THEME_COLORS: Record<string, string> = {
-  orange: '#FF8C42',
-  peach: '#FFB6C1',
-  blueberry: '#7B9FF5',
-  grape: '#9B6FD6',
-  kiwi: '#A8D55C',
-  coconut: '#D7CCC8',
+  orange: '#FF8C00',
   watermelon: '#FF6B6B',
+  blueberry: '#7B9FF5',
+  kiwi: '#A8D55C',
+  peach: '#FFB6C1',
+  grape: '#9575CD',
+  coconut: '#D7CCC8',
 };
 
 export function ThemeShowcase() {

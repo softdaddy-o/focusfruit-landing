@@ -23,8 +23,10 @@ const PLANS = [
     name: 'Premium',
     price: '$2.99',
     period: '/month',
-    yearlyPrice: '$24.99/year',
-    yearlySavings: 'Save 30%',
+    alternativePrices: [
+      { label: '$6.99/quarter', savings: '22% off' },
+      { label: '$39.99 lifetime', savings: 'Best value' },
+    ],
     description: 'For serious productivity seekers',
     features: [
       'Everything in Free, plus:',
@@ -35,7 +37,7 @@ const PLANS = [
       'Home Assistant integration',
       'Priority support',
     ],
-    cta: 'Start Free Trial',
+    cta: 'Start 7-Day Free Trial',
     ctaLink: CHROME_STORE_URL,
     highlighted: true,
   },
@@ -88,12 +90,16 @@ export function Pricing() {
                   <span className="text-4xl font-bold text-slate-900">{plan.price}</span>
                   <span className="text-slate-500">{plan.period}</span>
                 </div>
-                {plan.yearlyPrice && (
-                  <div className="mt-2 flex items-center gap-2">
-                    <span className="text-sm text-slate-600">{plan.yearlyPrice}</span>
-                    <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded-full">
-                      {plan.yearlySavings}
-                    </span>
+                {plan.alternativePrices && (
+                  <div className="mt-2 space-y-1">
+                    {plan.alternativePrices.map((alt, idx) => (
+                      <div key={idx} className="flex items-center gap-2">
+                        <span className="text-sm text-slate-600">{alt.label}</span>
+                        <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded-full">
+                          {alt.savings}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 )}
                 <p className="mt-3 text-slate-600 text-sm">{plan.description}</p>

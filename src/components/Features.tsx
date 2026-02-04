@@ -23,7 +23,7 @@ const FEATURES = [
   },
   {
     title: '7 Cute Themes',
-    description: 'Orange, Peach, Blueberry, Grape, Kiwi, Coconut & Watermelon.',
+    description: 'Orange, Watermelon, Blueberry, Kiwi, Peach, Grape & Coconut.',
     emoji: '🎨',
     color: 'from-purple-400 to-pink-500',
     bgColor: 'bg-purple-50',
