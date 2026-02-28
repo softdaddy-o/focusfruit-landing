@@ -29,14 +29,14 @@ export function CTA() {
 
         {/* Headline */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-          Ready to boost your
+          Ready to actually stick
           <br />
-          productivity?
+          with Pomodoro?
         </h2>
 
         {/* Subheadline */}
         <p className="text-lg text-white/80 mb-10 max-w-xl mx-auto">
-          Join thousands of focused professionals, students, and creators who use FocusFruit to do their best work.
+          Every Pomodoro app you've tried failed you. FocusFruit is the first one designed to keep you going — day after day.
         </p>
 
         {/* CTA Button */}

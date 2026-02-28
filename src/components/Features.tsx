@@ -1,54 +1,67 @@
 const FEATURES = [
   {
-    title: 'Pomodoro Timer',
-    description: 'Work in focused 25-minute sessions with automatic break reminders.',
-    emoji: '⏱️',
+    title: 'Idle Detection',
+    description: 'Forgot to start your next session? FocusFruit notices and gently brings you back.',
+    emoji: '🔔',
     color: 'from-orange-400 to-pink-400',
     bgColor: 'bg-orange-50',
   },
   {
+    title: 'Guided Break Screen',
+    description: '38 science-backed activities — stretching, breathing, eye rest — so you genuinely recharge.',
+    emoji: '🧘',
+    color: 'from-emerald-400 to-teal-500',
+    bgColor: 'bg-emerald-50',
+  },
+  {
+    title: 'Smart Pause',
+    description: 'Log what interrupted you (call, notification, thought). Reveal your biggest focus blockers over time.',
+    emoji: '⏸️',
+    color: 'from-sky-400 to-blue-500',
+    bgColor: 'bg-sky-50',
+  },
+  {
+    title: 'Mood & Energy Tracking',
+    description: 'Log how you feel before and after sessions. Understand when you focus best.',
+    emoji: '😊',
+    color: 'from-purple-400 to-pink-500',
+    bgColor: 'bg-purple-50',
+  },
+  {
+    title: 'Analytics with Explanations',
+    description: 'Charts with context — weekly and monthly views explain what your data actually means.',
+    emoji: '📈',
+    color: 'from-amber-400 to-orange-500',
+    bgColor: 'bg-amber-50',
+  },
+  {
     title: 'Website Blocking',
-    description: 'Block distracting websites during focus sessions. Stay on track.',
+    description: 'Block distracting sites during focus sessions. 3 emergency overrides per day.',
     emoji: '🛡️',
     color: 'from-red-400 to-rose-500',
     bgColor: 'bg-red-50',
     badge: 'Premium',
   },
   {
-    title: 'Progress Tracking',
-    description: 'Track daily pomodoros, focus time, and build streaks.',
-    emoji: '📊',
-    color: 'from-emerald-400 to-teal-500',
-    bgColor: 'bg-emerald-50',
+    title: 'Accidental-Stop Protection',
+    description: 'A confirmation step prevents stopping a session by mistake, so flow states stay safe.',
+    emoji: '🔒',
+    color: 'from-slate-400 to-slate-600',
+    bgColor: 'bg-slate-50',
   },
   {
-    title: '7 Cute Themes',
-    description: 'Orange, Watermelon, Blueberry, Kiwi, Peach, Grape & Coconut.',
+    title: '9 Beautiful Themes',
+    description: 'Orange, Strawberry, Watermelon, Kiwi, Lemon, Blueberry, Grape, Coconut & Peach.',
     emoji: '🎨',
-    color: 'from-purple-400 to-pink-500',
-    bgColor: 'bg-purple-50',
+    color: 'from-pink-400 to-purple-500',
+    bgColor: 'bg-pink-50',
   },
   {
-    title: 'Smart Notifications',
-    description: 'Customizable sounds and alerts when sessions end.',
-    emoji: '🔔',
-    color: 'from-amber-400 to-orange-500',
-    bgColor: 'bg-amber-50',
-  },
-  {
-    title: 'Multi-Language',
-    description: 'Available in English and Korean. More languages coming soon.',
+    title: '7 Languages',
+    description: 'English, Spanish, French, Japanese, Korean, Portuguese, and Chinese.',
     emoji: '🌍',
-    color: 'from-sky-400 to-blue-500',
-    bgColor: 'bg-sky-50',
-  },
-  {
-    title: 'Smart Home',
-    description: 'Integrate with Home Assistant for smart home automation.',
-    emoji: '🏠',
     color: 'from-blue-400 to-cyan-500',
     bgColor: 'bg-blue-50',
-    badge: 'Premium',
   },
 ];
 
@@ -62,22 +75,22 @@ export function Features() {
         {/* Section header */}
         <div className="text-center mb-12 lg:mb-16">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-r from-orange-100 to-pink-100 rounded-full text-sm font-medium text-orange-700 mb-4">
-            <span>✨</span>
-            <span>Packed with features</span>
+            <span>🎯</span>
+            <span>Built for consistency</span>
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Everything you need to
+            Features that keep you
             <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-              stay productive
+              in the habit
             </span>
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Pomodoro Technique meets beautiful design and smart features
+            Every feature answers one question: does this help you do more Pomodoros consistently?
           </p>
         </div>
 
         {/* Features grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-6">
           {FEATURES.map((feature) => (
             <div
               key={feature.title}

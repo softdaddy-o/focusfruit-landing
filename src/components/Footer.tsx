@@ -20,7 +20,7 @@ export function Footer() {
               <span className="font-bold text-lg text-slate-900">
                 Focus<span className="bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">Fruit</span>
               </span>
-              <p className="text-xs text-slate-500">Stay focused. Get more done.</p>
+              <p className="text-xs text-slate-500">The Pomodoro timer that doesn't let you fail.</p>
             </div>
           </div>
 

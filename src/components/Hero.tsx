@@ -30,16 +30,16 @@ export function Hero() {
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight mb-6 animate-slide-up">
-              Stay focused.
+              The Pomodoro timer that
               <br />
               <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                Get more done.
+                doesn't let you fail.
               </span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8 animate-slide-up-delayed">
-              A beautiful Pomodoro timer with cute fruit themes, website blocking, and smart break reminders.
+              Most timers just count down. FocusFruit keeps you going — with idle detection, guided breaks, and mood tracking to build a lasting focus habit.
             </p>
 
             {/* CTA Buttons */}

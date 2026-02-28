@@ -3,8 +3,8 @@ export function HowItWorks() {
     {
       number: '1',
       emoji: '🎯',
-      title: 'Focus for 25 minutes',
-      description: 'Start a session and work on a single task without distractions.',
+      title: 'Focus — we keep you on track',
+      description: 'Start a session. Idle detection and website blocking make sure you stay in it.',
       color: 'from-orange-400 to-pink-500',
       bgColor: 'bg-orange-50',
       time: '25:00',
@@ -12,9 +12,9 @@ export function HowItWorks() {
     },
     {
       number: '2',
-      emoji: '☕',
-      title: 'Take a 5-minute break',
-      description: 'Rest your mind, stretch, or grab a snack to recharge.',
+      emoji: '🧘',
+      title: 'Break — actually recharge',
+      description: 'Choose from 38 guided activities. Stretching, breathing, eye rest — not just staring at the wall.',
       color: 'from-emerald-400 to-teal-500',
       bgColor: 'bg-emerald-50',
       time: '5:00',
@@ -22,13 +22,13 @@ export function HowItWorks() {
     },
     {
       number: '3',
-      emoji: '🏆',
-      title: 'Repeat & track progress',
-      description: 'Complete 4 pomodoros, enjoy a 15-min break. Watch your streak grow!',
+      emoji: '📈',
+      title: 'Learn — see your patterns',
+      description: 'Mood tracking + analytics with explanations show you when and why you focus best.',
       color: 'from-purple-400 to-pink-500',
       bgColor: 'bg-purple-50',
       time: '🍊🍊🍊',
-      label: 'STREAK',
+      label: 'HABIT',
     },
   ];
 
@@ -42,15 +42,15 @@ export function HowItWorks() {
         {/* Section header */}
         <div className="text-center mb-12 lg:mb-16">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/80 backdrop-blur-sm rounded-full text-sm font-medium text-slate-700 mb-4 shadow-sm">
-            <span>🍅</span>
-            <span>The Pomodoro Technique</span>
+            <span>🔄</span>
+            <span>The habit loop</span>
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Simple as
-            <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent"> 1, 2, 3</span>
+            How FocusFruit keeps you
+            <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent"> consistent</span>
           </h2>
           <p className="text-lg text-slate-600 max-w-xl mx-auto">
-            The proven technique that has helped millions stay focused
+            The Pomodoro technique works. FocusFruit makes sure you stick with it.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export function HowItWorks() {
           <div className="inline-flex items-center gap-3 px-5 py-3 bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm">
             <span className="text-xl">💡</span>
             <p className="text-slate-600 text-sm">
-              <span className="font-semibold text-slate-800">Pro tip:</span> Start with defaults, adjust once you find your rhythm
+              <span className="font-semibold text-slate-800">This is why it works:</span> Other timers stop at step 1. FocusFruit covers all three.
             </p>
           </div>
         </div>
