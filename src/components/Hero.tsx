@@ -39,7 +39,7 @@ export function Hero() {
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8 animate-slide-up-delayed">
-              Most timers just count down. FocusFruit keeps you going — with idle detection, guided breaks, and mood tracking to build a lasting focus habit.
+              Most timers just count down. FocusFruit catches you when you drift, recharges you on breaks, and shows you your focus patterns — so the habit actually sticks.
             </p>
 
             {/* CTA Buttons */}

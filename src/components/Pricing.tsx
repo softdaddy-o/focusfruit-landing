@@ -6,7 +6,7 @@ const PLANS = [
     name: 'Free',
     price: '$0',
     period: 'forever',
-    description: 'Everything you need to build the Pomodoro habit',
+    description: 'Start building the Pomodoro habit — no strings attached',
     features: [
       'Pomodoro timer with idle detection',
       'Guided break screen (38 activities)',
@@ -32,7 +32,7 @@ const PLANS = [
       savings: '33% off',
       urgency: 'Launch sale ends soon',
     },
-    description: 'Full habit system with deep insights',
+    description: 'The complete focus habit system — blocking, tracking, and explanations',
     features: [
       'Everything in Free, plus:',
       'Website blocking during focus',

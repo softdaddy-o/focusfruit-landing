@@ -36,7 +36,7 @@ export function CTA() {
 
         {/* Subheadline */}
         <p className="text-lg text-white/80 mb-10 max-w-xl mx-auto">
-          Every Pomodoro app you've tried failed you. FocusFruit is the first one designed to keep you going — day after day.
+          Other Pomodoro apps gave you a countdown. FocusFruit gives you a system — so you're still using it next month.
         </p>
 
         {/* CTA Button */}
@@ -47,7 +47,7 @@ export function CTA() {
           className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-slate-900 font-bold text-lg rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
         >
           <ChromeIcon className="w-6 h-6" />
-          Add to Chrome — It's Free
+          Add to Chrome — Free
         </a>
 
         {/* Trust indicators */}

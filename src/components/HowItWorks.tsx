@@ -4,7 +4,7 @@ export function HowItWorks() {
       number: '1',
       emoji: '🎯',
       title: 'Focus — we keep you on track',
-      description: 'Start a session. Idle detection and website blocking make sure you stay in it.',
+      description: 'Start a session. Idle detection and accidental-stop protection make sure you stay in it.',
       color: 'from-orange-400 to-pink-500',
       bgColor: 'bg-orange-50',
       time: '25:00',
@@ -14,7 +14,7 @@ export function HowItWorks() {
       number: '2',
       emoji: '🧘',
       title: 'Break — actually recharge',
-      description: 'Choose from 38 guided activities. Stretching, breathing, eye rest — not just staring at the wall.',
+      description: 'Choose from 38 guided activities — desk yoga, box breathing, eye exercises — not just staring at the wall.',
       color: 'from-emerald-400 to-teal-500',
       bgColor: 'bg-emerald-50',
       time: '5:00',
@@ -105,7 +105,7 @@ export function HowItWorks() {
           <div className="inline-flex items-center gap-3 px-5 py-3 bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm">
             <span className="text-xl">💡</span>
             <p className="text-slate-600 text-sm">
-              <span className="font-semibold text-slate-800">This is why it works:</span> Other timers stop at step 1. FocusFruit covers all three.
+              Other timers stop at step 1. <span className="font-semibold text-slate-800">FocusFruit is the full loop.</span>
             </p>
           </div>
         </div>
