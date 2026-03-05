@@ -1,4 +1,4 @@
-import { Check, CheckCircle, Clock } from 'lucide-react';
+import { Check, CheckCircle } from 'lucide-react';
 import { CHROME_STORE_URL } from '../constants';
 
 const PLANS = [
@@ -25,13 +25,8 @@ const PLANS = [
     period: '/month',
     alternativePrices: [
       { label: '$6.99/quarter', savings: '22% off', isTimeSale: false },
+      { label: '$99 lifetime', savings: 'Best value', isTimeSale: false },
     ],
-    timeSale: {
-      label: '$39.99 lifetime',
-      originalPrice: '$59.99',
-      savings: '33% off',
-      urgency: 'Launch sale ends soon',
-    },
     description: 'The complete focus habit system — blocking, tracking, and explanations',
     features: [
       'Everything in Free, plus:',
@@ -105,23 +100,6 @@ export function Pricing() {
                         </span>
                       </div>
                     ))}
-                  </div>
-                )}
-                {plan.timeSale && (
-                  <div className="mt-3 p-3 bg-gradient-to-r from-red-50 to-orange-50 rounded-xl border border-red-200">
-                    <div className="flex items-center gap-2 mb-1">
-                      <Clock className="w-4 h-4 text-red-500" />
-                      <span className="text-xs font-bold text-red-600 uppercase tracking-wide">
-                        {plan.timeSale.urgency}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm font-bold text-slate-900">{plan.timeSale.label}</span>
-                      <span className="text-sm text-slate-400 line-through">{plan.timeSale.originalPrice}</span>
-                      <span className="px-2 py-0.5 bg-red-500 text-white text-xs font-bold rounded-full">
-                        {plan.timeSale.savings}
-                      </span>
-                    </div>
                   </div>
                 )}
                 <p className="mt-3 text-slate-600 text-sm">{plan.description}</p>

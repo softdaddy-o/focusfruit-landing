@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-// Theme data matching extension's 7 fruit themes (see src/shared/constants/themes.ts)
+// Theme data — 7 of 9 themes with screenshots (Strawberry & Lemon screenshots TBD)
 const THEMES = [
   { id: 'orange', name: 'Orange', emoji: '🍊', screenshot: '/screenshots/popup-orange.png' },
   { id: 'watermelon', name: 'Watermelon', emoji: '🍉', screenshot: '/screenshots/popup-watermelon.png' },
@@ -43,7 +43,7 @@ export function ThemeShowcase() {
         <div className="text-center mb-12 lg:mb-16">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-r from-pink-100 to-purple-100 rounded-full text-sm font-medium text-purple-700 mb-4">
             <span>🎨</span>
-            <span>7 Beautiful Themes</span>
+            <span>9 Beautiful Themes</span>
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
             Pick your favorite fruit
