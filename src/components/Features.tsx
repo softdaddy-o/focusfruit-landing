@@ -1,8 +1,8 @@
 const FEATURES = [
   {
-    title: 'Optional Idle Reminders',
-    description: 'Turn on gentle reminders when you want a nudge to start the next session.',
-    emoji: '🔔',
+    title: 'Habit Quests',
+    description: 'Grow from Seed to Orchard with stage-based quests that reward consistent focus.',
+    emoji: '🌱',
     color: 'from-orange-400 to-pink-400',
     bgColor: 'bg-orange-50',
   },

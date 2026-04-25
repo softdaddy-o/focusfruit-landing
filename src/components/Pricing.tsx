@@ -8,7 +8,7 @@ const PLANS = [
     period: 'forever',
     description: 'Start building the Pomodoro habit — no strings attached',
     features: [
-      'Pomodoro timer with optional idle reminders',
+      'Pomodoro timer with habit quests',
       'Guided break screen (38 activities)',
       'Daily statistics & streaks',
       'Accidental-stop protection',
