@@ -4,7 +4,7 @@ export function HowItWorks() {
       number: '1',
       emoji: '🎯',
       title: 'Focus — we keep you on track',
-      description: 'Start a session. Idle detection and accidental-stop protection make sure you stay in it.',
+      description: 'Start a session. Optional idle reminders and accidental-stop protection help you stay with it.',
       color: 'from-orange-400 to-pink-500',
       bgColor: 'bg-orange-50',
       time: '25:00',

@@ -1,7 +1,7 @@
 const FEATURES = [
   {
-    title: 'Idle Detection',
-    description: 'Forgot to start your next session? FocusFruit nudges you before the gap becomes a quit.',
+    title: 'Optional Idle Reminders',
+    description: 'Turn on gentle reminders when you want a nudge to start the next session.',
     emoji: '🔔',
     color: 'from-orange-400 to-pink-400',
     bgColor: 'bg-orange-50',
