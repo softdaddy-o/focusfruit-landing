@@ -20,7 +20,7 @@ export function PrivacyPolicy() {
               <span>Legal</span>
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Privacy Policy</h1>
-            <p className="text-slate-500">Last updated: December 27, 2025</p>
+            <p className="text-slate-500">Last updated: May 3, 2026</p>
           </div>
 
           {/* Content card */}
@@ -34,7 +34,7 @@ export function PrivacyPolicy() {
                 <p className="text-slate-600 leading-relaxed">
                   FocusFruit is designed with privacy as a core principle. We believe your productivity data
                   should stay on your device, under your control. This privacy policy explains how FocusFruit
-                  handles your information.
+                  handles your information across the browser extension and desktop app.
                 </p>
               </section>
 
@@ -45,7 +45,8 @@ export function PrivacyPolicy() {
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
                   By default, all your data including timer settings, session history, and statistics is stored locally
-                  on your device using Chrome's built-in storage API.
+                  on your device using Chrome's built-in storage API for the extension or local desktop app storage for
+                  the Windows app.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
                   <strong className="text-slate-900">Optional Data Sync:</strong> If you choose to enable data syncing in the future (when available),
@@ -60,7 +61,8 @@ export function PrivacyPolicy() {
                   Chrome Extension Permissions
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  FocusFruit requires certain browser permissions to function. Here's what each permission is used for:
+                  FocusFruit requires certain browser permissions for the extension. The desktop app does not use browser
+                  permissions. Here's what each extension permission is used for:
                 </p>
                 <ul className="space-y-3">
                   {[
@@ -175,10 +177,10 @@ export function PrivacyPolicy() {
                   please contact us at:
                 </p>
                 <a
-                  href="mailto:softdaddy.official@gmail.com"
+                  href="mailto:support@softdaddy-o.com"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-orange-50 rounded-lg text-orange-600 hover:bg-orange-100 transition-colors font-medium"
                 >
-                  softdaddy.official@gmail.com
+                  support@softdaddy-o.com
                 </a>
               </section>
             </div>

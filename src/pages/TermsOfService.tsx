@@ -20,7 +20,7 @@ export function TermsOfService() {
               <span>Legal</span>
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Terms of Service</h1>
-            <p className="text-slate-500">Last updated: December 27, 2025</p>
+            <p className="text-slate-500">Last updated: May 3, 2026</p>
           </div>
 
           {/* Content card */}
@@ -32,8 +32,8 @@ export function TermsOfService() {
                   Acceptance of Terms
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
-                  By installing and using FocusFruit ("the Extension"), you agree to be bound by these Terms of Service.
-                  If you do not agree to these terms, please do not use the Extension.
+                  By installing and using FocusFruit ("the app"), you agree to be bound by these Terms of Service.
+                  If you do not agree to these terms, please do not use the app.
                 </p>
               </section>
 
@@ -43,14 +43,14 @@ export function TermsOfService() {
                   Description of Service
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  FocusFruit is a Chrome browser extension that provides:
+                  FocusFruit is a Pomodoro timer and focus habit application for supported platforms, including the browser extension and desktop app. FocusFruit provides:
                 </p>
                 <ul className="space-y-3">
                   {[
                     'A Pomodoro timer for productivity management',
                     'Session tracking and statistics',
                     'Customizable timer durations and notifications',
-                    'Multiple fruit themes for personalization',
+                    'Guided break activities, focus analytics, and fruit themes for personalization',
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
@@ -66,11 +66,11 @@ export function TermsOfService() {
                   License and Pricing
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  FocusFruit is proprietary software. The Extension is free to use with basic features.
+                  FocusFruit is proprietary software. The app is free to use with basic features.
                   Premium features may require a paid subscription. All rights are reserved by FocusFruit.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  You may not copy, modify, distribute, sell, or lease any part of the Extension or its source code
+                  You may not copy, modify, distribute, sell, or lease any part of the app or its source code
                   without explicit written permission from FocusFruit.
                 </p>
               </section>
@@ -85,8 +85,8 @@ export function TermsOfService() {
                 </p>
                 <ul className="space-y-3">
                   {[
-                    'Use the Extension in compliance with all applicable laws',
-                    'Not attempt to reverse engineer, modify, or exploit the Extension for malicious purposes',
+                    'Use the app in compliance with all applicable laws',
+                    'Not attempt to reverse engineer, modify, or exploit the app for malicious purposes',
                     'Maintain the security of your account credentials if using premium features',
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
@@ -107,8 +107,8 @@ export function TermsOfService() {
                 </p>
                 <ul className="space-y-3">
                   {[
-                    'The Extension will be error-free or uninterrupted',
-                    'The Extension will meet your specific requirements',
+                    'The app will be error-free or uninterrupted',
+                    'The app will meet your specific requirements',
                     'Any particular level of productivity improvement',
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
@@ -126,7 +126,7 @@ export function TermsOfService() {
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
                   To the maximum extent permitted by law, FocusFruit and its developers shall not be liable for any
-                  indirect, incidental, special, consequential, or punitive damages arising from your use of the Extension.
+                  indirect, incidental, special, consequential, or punitive damages arising from your use of the app.
                 </p>
               </section>
 
@@ -162,7 +162,7 @@ export function TermsOfService() {
                   Termination
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
-                  You may stop using FocusFruit at any time by uninstalling the Extension. We reserve the right
+                  You may stop using FocusFruit at any time by uninstalling the app. We reserve the right
                   to suspend or terminate access to premium features if you violate these terms or fail to pay
                   subscription fees. Upon termination, your locally stored data remains on your device.
                 </p>
@@ -175,7 +175,7 @@ export function TermsOfService() {
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
                   You must be at least 13 years old to use FocusFruit. If you are under 18, you represent that
-                  you have your parent or guardian's permission to use the Extension.
+                  you have your parent or guardian's permission to use the app.
                 </p>
               </section>
 
@@ -198,7 +198,7 @@ export function TermsOfService() {
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
                   We reserve the right to modify these terms at any time. Changes will be posted on this page with
-                  an updated revision date. Continued use of the Extension after changes constitutes acceptance of
+                  an updated revision date. Continued use of the app after changes constitutes acceptance of
                   the new terms.
                 </p>
               </section>
@@ -212,10 +212,10 @@ export function TermsOfService() {
                   For questions about these terms, please contact us at:
                 </p>
                 <a
-                  href="mailto:softdaddy.official@gmail.com"
+                  href="mailto:support@softdaddy-o.com"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-orange-50 rounded-lg text-orange-600 hover:bg-orange-100 transition-colors font-medium"
                 >
-                  softdaddy.official@gmail.com
+                  support@softdaddy-o.com
                 </a>
               </section>
             </div>
