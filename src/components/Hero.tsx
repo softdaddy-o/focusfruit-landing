@@ -1,6 +1,12 @@
 import { ChromeIcon } from './icons';
 import { CHROME_STORE_URL } from '../constants';
 
+const TESTIMONIAL = {
+  author: 'Giyun',
+  date: 'Apr 20, 2026',
+  quote: 'BEST POMODORO APP EVER. simple, cute, and cheerful notification i love it',
+};
+
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-orange-50 via-pink-50 to-purple-50">
@@ -64,8 +70,27 @@ export function Hero() {
               </a>
             </div>
 
+            <figure className="mt-8 max-w-lg mx-auto lg:mx-0 rounded-lg border border-orange-100 bg-white/85 px-5 py-4 text-left shadow-sm backdrop-blur-sm animate-fade-in">
+              <div className="flex items-center justify-between gap-3">
+                <div className="flex items-center gap-0.5 text-yellow-500" aria-label="5 out of 5 stars">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <svg key={i} className="h-4 w-4 fill-current" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <span className="text-xs font-medium text-slate-500">{TESTIMONIAL.date}</span>
+              </div>
+              <blockquote className="mt-2 text-sm font-semibold leading-relaxed text-slate-800">
+                "{TESTIMONIAL.quote}"
+              </blockquote>
+              <figcaption className="mt-2 text-xs font-medium text-slate-500">
+                {TESTIMONIAL.author}
+              </figcaption>
+            </figure>
+
             {/* Social proof */}
-            <div className="mt-10 flex flex-wrap items-center gap-6 justify-center lg:justify-start animate-fade-in">
+            <div className="mt-8 flex flex-wrap items-center gap-6 justify-center lg:justify-start animate-fade-in">
               <div className="flex -space-x-2">
                 {['🧑‍💻', '👩‍🎓', '👨‍💼', '👩‍🔬', '🧑‍🎨'].map((emoji, i) => (
                   <div
