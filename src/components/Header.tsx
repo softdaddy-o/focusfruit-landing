@@ -15,6 +15,7 @@ export function Header() {
   }, []);
 
   const navLinks = [
+    { href: '#whats-new', label: "What's New" },
     { href: '#features', label: 'Features' },
     { href: '#how-it-works', label: 'How It Works' },
     { href: '#themes', label: 'Themes' },

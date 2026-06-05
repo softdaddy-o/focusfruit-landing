@@ -4,7 +4,7 @@ export function HowItWorks() {
       number: '1',
       emoji: '🎯',
       title: 'Focus — we keep you on track',
-      description: 'Start a session, complete habit quests, and watch your focus journey grow from seed to orchard.',
+      description: 'Start a session, protect the focus block, and let the next Habit Quest give the session a clear checkpoint.',
       color: 'from-orange-400 to-pink-500',
       bgColor: 'bg-orange-50',
       time: '25:00',

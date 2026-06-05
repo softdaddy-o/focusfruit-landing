@@ -31,7 +31,7 @@ export function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
               </span>
-              <span className="text-sm font-medium text-slate-700">Free Chrome Extension</span>
+              <span className="text-sm font-medium text-slate-700">Free Chrome Extension - Habit Quests added</span>
             </div>
 
             {/* Headline */}
@@ -45,7 +45,7 @@ export function Hero() {
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8 animate-slide-up-delayed">
-              Most timers just count down. FocusFruit turns each session into a habit-building quest, recharges you on breaks, and shows you your focus patterns — so the habit actually sticks.
+              FocusFruit combines a Pomodoro timer, guided breaks, mood and energy tracking, distraction blocking, and new Habit Quests so consistency feels easier to repeat.
             </p>
 
             {/* CTA Buttons */}

@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { QuestUpdate } from './components/QuestUpdate';
 import { Features } from './components/Features';
 import { HowItWorks } from './components/HowItWorks';
 import { ThemeShowcase } from './components/ThemeShowcase';
@@ -36,6 +37,7 @@ function HomePage() {
       <Header />
       <main id="main-content">
         <Hero />
+        <QuestUpdate />
         <Features />
         <HowItWorks />
         <ThemeShowcase />
