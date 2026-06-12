@@ -15,11 +15,11 @@ export function Header() {
   }, []);
 
   const navLinks = [
-    { href: '#whats-new', label: "What's New" },
-    { href: '#features', label: 'Features' },
-    { href: '#how-it-works', label: 'How It Works' },
-    { href: '#themes', label: 'Themes' },
-    { href: '#pricing', label: 'Pricing' },
+    { href: '/#whats-new', label: "What's New" },
+    { href: '/#features', label: 'Features' },
+    { href: '/#how-it-works', label: 'How It Works' },
+    { href: '/#themes', label: 'Themes' },
+    { href: '/#pricing', label: 'Pricing' },
   ];
 
   return (
@@ -34,7 +34,7 @@ export function Header() {
         <nav className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a
-            href="#"
+            href="/"
             className="flex items-center gap-2 group"
             aria-label="FocusFruit Home"
           >
