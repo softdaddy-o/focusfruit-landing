@@ -14,6 +14,12 @@ import { TermsOfService } from './pages/TermsOfService';
 import { NotFound } from './pages/NotFound';
 import ConceptPage from './pages/ConceptPage';
 
+const redirectedPath = sessionStorage.getItem('focusfruit:spa-redirect');
+if (redirectedPath) {
+  sessionStorage.removeItem('focusfruit:spa-redirect');
+  window.history.replaceState(null, '', redirectedPath);
+}
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
