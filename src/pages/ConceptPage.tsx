@@ -178,6 +178,14 @@ const characterStyleCards = [
   image: slice(`character-style-${String(index).padStart(2, '0')}.png`),
 }));
 
+const extraCharacterStyleCards = [
+  {
+    title: '일본 애니메이션 스타일',
+    image: asset('20260615-japanese-animation-longneck-meerkat-sheet.png'),
+    note: 'AD 체크용 추가 시안입니다. 셀 채색, 선화, 단순화된 면 표현을 기존 후보와 비교합니다.',
+  },
+];
+
 const expressionGrammarCards = [
   {
     title: '꼬질 지친형',
@@ -554,7 +562,10 @@ function ConceptPage() {
         description="단순 렌더링 질감 비교가 아니라, 서로 다른 실루엣, 얼굴비, 눈모양, 목 비율, 성격을 가진 미어캣 캐릭터 후보를 비교합니다."
         source={asset('20260613-152341-meerkat-character-style-12.png')}
       >
-        <CardGrid cards={characterStyleCards} onPreview={setPreview} columns="xl:grid-cols-4" compact />
+        <div className="grid gap-5">
+          <CardGrid cards={characterStyleCards} onPreview={setPreview} columns="xl:grid-cols-4" compact />
+          <CardGrid cards={extraCharacterStyleCards} onPreview={setPreview} columns="xl:grid-cols-1" />
+        </div>
       </Section>
 
       <Section
