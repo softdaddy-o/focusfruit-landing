@@ -111,7 +111,7 @@ export function Hero() {
                   ))}
                 </div>
                 <p className="text-sm text-slate-500">
-                  Loved by <span className="font-semibold text-slate-700">1,000+</span> users
+                  Rated <span className="font-semibold text-slate-700">5.0</span> on the Chrome Web Store
                 </p>
               </div>
             </div>
