@@ -1,5 +1,5 @@
 import { Check, CheckCircle } from 'lucide-react';
-import { CHROME_STORE_URL } from '../constants';
+import { storeUrl } from '../constants';
 
 const PLANS = [
   {
@@ -16,7 +16,7 @@ const PLANS = [
       '7 languages',
     ],
     cta: 'Get Started Free',
-    ctaLink: CHROME_STORE_URL,
+    ctaLink: storeUrl('pricing-free'),
     highlighted: false,
   },
   {
@@ -38,7 +38,7 @@ const PLANS = [
       'SwitchBot smart home integration',
     ],
     cta: 'Start 7-Day Free Trial',
-    ctaLink: CHROME_STORE_URL,
+    ctaLink: storeUrl('pricing-premium'),
     highlighted: true,
   },
 ];

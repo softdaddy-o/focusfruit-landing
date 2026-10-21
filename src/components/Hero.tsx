@@ -1,5 +1,5 @@
 import { ChromeIcon } from './icons';
-import { CHROME_STORE_URL } from '../constants';
+import { storeUrl } from '../constants';
 
 const TESTIMONIAL = {
   author: 'Giyun',
@@ -51,7 +51,7 @@ export function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-up-delayed">
               <a
-                href={CHROME_STORE_URL}
+                href={storeUrl('hero')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2.5 px-7 py-4 bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-semibold text-lg rounded-2xl shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"

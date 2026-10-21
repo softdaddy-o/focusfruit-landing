@@ -1,5 +1,5 @@
 import { ChromeIcon } from './icons';
-import { CHROME_STORE_URL } from '../constants';
+import { storeUrl } from '../constants';
 
 export function CTA() {
   return (
@@ -41,7 +41,7 @@ export function CTA() {
 
         {/* CTA Button */}
         <a
-          href={CHROME_STORE_URL}
+          href={storeUrl('cta')}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-slate-900 font-bold text-lg rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"

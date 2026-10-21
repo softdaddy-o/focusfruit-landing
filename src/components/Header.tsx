@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ChromeIcon } from './icons';
-import { CHROME_STORE_URL } from '../constants';
+import { storeUrl } from '../constants';
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -62,7 +62,7 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <a
-              href={CHROME_STORE_URL}
+              href={storeUrl('header')}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white text-sm font-semibold rounded-full shadow-md shadow-orange-500/20 hover:shadow-lg hover:shadow-orange-500/30 transition-all duration-200"
@@ -124,7 +124,7 @@ export function Header() {
               </a>
             ))}
             <a
-              href={CHROME_STORE_URL}
+              href={storeUrl('header-mobile')}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full px-5 py-3 bg-gradient-to-r from-orange-500 to-pink-500 text-white text-sm font-semibold rounded-full mt-4"
