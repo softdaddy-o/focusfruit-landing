@@ -109,7 +109,7 @@ export function PrivacyPolicy() {
                     </li>
                     <li key="b" className="flex items-start gap-3">
                       <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
-                      <span className="text-slate-600">The name of the event, chosen from a fixed list (for example, that a session was started).</span>
+                      <span className="text-slate-600">The name of the event, chosen from a fixed list of six: app installed; first focus session completed; still using it 7 days after install; return card shown; return card used to start a session; return card dismissed.</span>
                     </li>
                     <li key="c" className="flex items-start gap-3">
                       <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
@@ -144,7 +144,7 @@ export function PrivacyPolicy() {
                 </p>
                 <p className="text-slate-600 leading-relaxed">
                   <strong className="text-slate-900">Opt out:</strong> Usage counts are on by default. You can turn
-                  them off at any time with the usage statistics toggle on the extension's Settings page. Once turned
+                  them off at any time with the "Share anonymous usage counts" setting on the extension's Settings page. Once turned
                   off, no further events are sent.
                 </p>
               </section>
