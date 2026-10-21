@@ -138,7 +138,9 @@ export function PrivacyPolicy() {
                     </li>
                 </ul>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  These counts are sent to our Supabase database. The return card, which appears when you come back
+                  These counts are sent to our Supabase database. Like any web request, our server receives
+                  the connecting IP address at the transport level; FocusFruit does not store it with the
+                  counts. The return card, which appears when you come back
                   to your computer, may show the title of the tab you were last using. That information is read and
                   displayed on your device only and is never transmitted.
                 </p>
