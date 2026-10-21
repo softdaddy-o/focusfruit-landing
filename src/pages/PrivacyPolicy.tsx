@@ -20,7 +20,7 @@ export function PrivacyPolicy() {
               <span>Legal</span>
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Privacy Policy</h1>
-            <p className="text-slate-500">Last updated: May 3, 2026</p>
+            <p className="text-slate-500">Last updated: October 21, 2026</p>
           </div>
 
           {/* Content card */}
@@ -88,13 +88,70 @@ export function PrivacyPolicy() {
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
                   FocusFruit does not use any third-party analytics, tracking, or advertising services.
-                  We do not share your data with anyone.
+                  We do not share your data with anyone. The anonymous usage counts described below are
+                  stored in our own database, hosted by Supabase, which processes them on our behalf.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
                   <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">5</span>
+                  Anonymous Usage Counts
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  The FocusFruit extension sends anonymous usage counts so we can see which features are used and
+                  improve the product. Each event contains only:
+                </p>
+                <ul className="space-y-3 mb-4">
+                    <li key="a" className="flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
+                      <span className="text-slate-600">A random install ID generated on your device. It is not linked to your name, email, or account.</span>
+                    </li>
+                    <li key="b" className="flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
+                      <span className="text-slate-600">The name of the event, chosen from a fixed list (for example, that a session was started).</span>
+                    </li>
+                    <li key="c" className="flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
+                      <span className="text-slate-600">The FocusFruit extension version.</span>
+                    </li>
+                    <li key="d" className="flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
+                      <span className="text-slate-600">A timestamp added by our server when the event is received.</span>
+                    </li>
+                </ul>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  <strong className="text-slate-900">What is never sent:</strong>
+                </p>
+                <ul className="space-y-3 mb-4">
+                    <li key="a" className="flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
+                      <span className="text-slate-600">The pages you visit, or the titles or URLs of your tabs.</span>
+                    </li>
+                    <li key="b" className="flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
+                      <span className="text-slate-600">Your daily priority text or session notes.</span>
+                    </li>
+                    <li key="c" className="flex items-start gap-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 shrink-0" />
+                      <span className="text-slate-600">Your name, email address, or account ID.</span>
+                    </li>
+                </ul>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  These counts are sent to our Supabase database. The return card, which appears when you come back
+                  to your computer, may show the title of the tab you were last using. That information is read and
+                  displayed on your device only and is never transmitted.
+                </p>
+                <p className="text-slate-600 leading-relaxed">
+                  <strong className="text-slate-900">Opt out:</strong> Usage counts are on by default. You can turn
+                  them off at any time with the usage statistics toggle on the extension's Settings page. Once turned
+                  off, no further events are sent.
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
+                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">6</span>
                   Your Rights
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
@@ -122,7 +179,7 @@ export function PrivacyPolicy() {
 
               <section>
                 <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
-                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">6</span>
+                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">7</span>
                   Data Retention
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
@@ -134,7 +191,7 @@ export function PrivacyPolicy() {
 
               <section>
                 <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
-                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">7</span>
+                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">8</span>
                   Children's Privacy
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
@@ -146,7 +203,7 @@ export function PrivacyPolicy() {
 
               <section>
                 <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
-                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">8</span>
+                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">9</span>
                   International Users
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
@@ -158,7 +215,7 @@ export function PrivacyPolicy() {
 
               <section>
                 <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
-                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">9</span>
+                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">10</span>
                   Changes to This Policy
                 </h2>
                 <p className="text-slate-600 leading-relaxed">
@@ -169,7 +226,7 @@ export function PrivacyPolicy() {
 
               <section>
                 <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-3">
-                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">10</span>
+                  <span className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">11</span>
                   Contact Us
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-4">
